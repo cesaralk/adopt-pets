@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="stylesheet" href="./assets/styles/index.css">
+</head>
+
+<body>
+    <header class="container">
+        <nav>
+            <a href="#home">
+                <img id="logo" src="assets/images/logo.jpg" alt="">
+            </a>
+            <a href="./index.html">Home</a>
+            <a href="./dogs.html">Dogs</a>
+            <a href="./cats.html">Cats</a>
+            <a href="./stories.html">Stories</a>
+            <a href=" https://www.facebook.com/cezar.alkhatib">About us</a>
+            <a href=" https://wa.me/71462505">Contact us</a>
+        </nav>
+    </header>
+    <main>
+        <h2 class="slider-text" style="text-align:center">congratulations</h2>
+        <h2 class="slider-text" style="text-align:center">your a adding special member to your famly</h2>
+        <div class="slider-container container">
+            <div class="slide">
+                <img src="./assets/images/image1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./assets/images/image4.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./assets/images/image2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./assets/images/image3.jpg" alt="">
+            </div>
+
+            <span class="prev" onclick="plusSlides(-1)">❮</span>
+            <span class="next" onclick="plusSlides(1)">❯</span>
+        </div>
+        <section class="container adopt">
+            <form id="adopt-form" onsubmit="submitAdoptForm(event);">
+                <div class="application">
+                    <div>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+
+                        <label for="mobile">Mobile:</label><br>
+                        <input type="text" id="mobile" name="mobile"><br>
+                    </div>
+                    <div>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname"><br>
+
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="email" name="email"><br>
+                    </div>
+                </div>
+
+                <label for="address">Addres:</label><br>
+                <textarea type="text" id="address" name="address"></textarea> <br>
+                <div>
+                    <button type="submit">Adopt</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+    <footer class="container">
+        <div>
+            <ul>
+                <li>
+                    <a href="./index.html">Home</a>
+
+                </li>
+                <li>
+                    <a href="./dogs.html">Dogs</a>
+                </li>
+                <li>
+                    <a href="./cats.html">Cats</a>
+                </li>
+                <li>
+                    <a href="./adopt.html">Adopt</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="./stories.html">Stories</a>
+                </li>
+                <li>
+                    <a href="about.html">About Us</a>
+                </li>
+                <li>
+                    <a href="#about">Contact Us</a>
+                </li>
+                <li>
+                    <a href="#about">Help</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="Lost and found">Lost and found</a>
+                </li>
+                <li>
+                    <a href="donations">Donat</a>
+                </li>
+                <li>
+                    <a href=" https://www.facebook.com/cezar.alkhatib">facebook</a>
+                </li>
+                <li>
+                    <a href=" https://wa.me/71462505">Whatsapp</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./assets/scripts/scripts.js"></script>
+
+
+
+
+</body>
+
+</html>
